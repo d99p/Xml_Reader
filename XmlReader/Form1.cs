@@ -48,17 +48,6 @@ namespace XmlReader
 
         }
 
-
-        private void ReadXmlButton_Click(object sender, EventArgs e)
-        {
-            string filePath = @"C:\Users\d99p\source\repos\XmlReader\XmlReader\XmlGroups.xml";
-
-            XmlDataSet.ReadXml(filePath);
-
-            dataGridView1.DataSource = XmlDataSet;
-            dataGridView1.DataMember = "Document";
-        }
-
         private void ShowSchemaButton_Click(object sender, EventArgs e)
         {
             System.IO.StringWriter swXML = new System.IO.StringWriter();
