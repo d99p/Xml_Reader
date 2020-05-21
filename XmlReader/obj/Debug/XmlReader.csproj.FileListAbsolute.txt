@@ -23,3 +23,10 @@ E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.csproj.GenerateResou
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.csproj.CoreCompileInputs.cache
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.exe
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.pdb
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.exe.config
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.exe
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.pdb
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\aa\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\uk-UA\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\aa\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\uk-UA\XmlReader.resources.dll

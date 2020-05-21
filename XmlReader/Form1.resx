@@ -138,7 +138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 240</value>
@@ -166,7 +166,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="ShowSchemaButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>482, 415</value>
@@ -190,7 +190,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ShowSchemaButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <metadata name="XmlDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -217,6 +217,54 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DownloadXmlButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Excel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 415</value>
+  </data>
+  <data name="Excel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="Excel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Excel.Text" xml:space="preserve">
+    <value>Експорт в MS Excel</value>
+  </data>
+  <data name="&gt;&gt;Excel.Name" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="&gt;&gt;Excel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Excel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Excel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Word.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 415</value>
+  </data>
+  <data name="Word.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 23</value>
+  </data>
+  <data name="Word.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Word.Text" xml:space="preserve">
+    <value>Експорт в MS Word</value>
+  </data>
+  <data name="&gt;&gt;Word.Name" xml:space="preserve">
+    <value>Word</value>
+  </data>
+  <data name="&gt;&gt;Word.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Word.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Word.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

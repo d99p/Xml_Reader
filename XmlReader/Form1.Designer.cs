@@ -34,6 +34,8 @@
             this.ShowSchemaButton = new System.Windows.Forms.Button();
             this.XmlDataSet = new System.Data.DataSet();
             this.DownloadXmlButton = new System.Windows.Forms.Button();
+            this.Excel = new System.Windows.Forms.Button();
+            this.Word = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.XmlDataSet)).BeginInit();
             this.SuspendLayout();
@@ -69,10 +71,26 @@
             this.DownloadXmlButton.UseVisualStyleBackColor = true;
             this.DownloadXmlButton.Click += new System.EventHandler(this.DownloadXmlButton_Click);
             // 
+            // Excel
+            // 
+            resources.ApplyResources(this.Excel, "Excel");
+            this.Excel.Name = "Excel";
+            this.Excel.UseVisualStyleBackColor = true;
+            this.Excel.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Word
+            // 
+            resources.ApplyResources(this.Word, "Word");
+            this.Word.Name = "Word";
+            this.Word.UseVisualStyleBackColor = true;
+            this.Word.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.Word);
+            this.Controls.Add(this.Excel);
             this.Controls.Add(this.DownloadXmlButton);
             this.Controls.Add(this.ShowSchemaButton);
             this.Controls.Add(this.textBox1);
@@ -93,6 +111,8 @@
         private System.Windows.Forms.Button ShowSchemaButton;
         private System.Data.DataSet XmlDataSet;
         private System.Windows.Forms.Button DownloadXmlButton;
+        private System.Windows.Forms.Button Excel;
+        private System.Windows.Forms.Button Word;
     }
 }
 
