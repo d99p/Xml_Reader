@@ -136,12 +136,14 @@ namespace XmlReader
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            // Git Hub link
             System.Diagnostics.Process.Start("https://github.com/d99p/Xml_Reader");
         }
 
         private void label1_Click_1(object sender, EventArgs e)
-        {
-
+        {   
+            // Linkedin link
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/denys-perepelytsia/");
         }
     }
 }
