@@ -21,6 +21,7 @@ namespace XmlReader
         public Form1()
         {
             InitializeComponent();
+            // File Dialog Window Box
             openFileDialog1 = new OpenFileDialog()
             {
                 FileName = "Виберіть Xml файл",
@@ -51,6 +52,7 @@ namespace XmlReader
 
         private void ShowSchemaButton_Click(object sender, EventArgs e)
         {
+            // Scheme view
             System.IO.StringWriter swXML = new System.IO.StringWriter();
             XmlDataSet.WriteXmlSchema(swXML);
             textBox1.Text = swXML.ToString();
@@ -58,6 +60,7 @@ namespace XmlReader
 
         private void DownloadXmlButton_Click(object sender, EventArgs e)
         {
+            // Dowloads files to data base
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -74,6 +77,7 @@ namespace XmlReader
                 }
                 catch (ApplicationException ex)
                 {
+                    // Show Error Message Box
                     MessageBox.Show($"Error!.\n\nError message: {ex.Message}\n\n" +
                     $"Details:\n\n{ex.StackTrace}");
                 }
@@ -90,7 +94,8 @@ namespace XmlReader
                 Microsoft.Office.Interop.Excel._Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
                 // creating new Excelsheet in workbook  
                 Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
-
+                // Name Excel table
+                worksheet.Name = "Excel Table form Xml Reader";
                 // store its reference to worksheet  
                 worksheet = workbook.ActiveSheet;
 
@@ -113,17 +118,20 @@ namespace XmlReader
             }
             catch (ApplicationException ex)
             {
+                // Show Error Message Box
                 MessageBox.Show($"Error!.\n\nError message: {ex.Message}\n\n" +
                 $"Details:\n\n{ex.StackTrace}");
             }
         }
-
+        //Future development
         private void button2_Click(object sender, EventArgs e)
         {
+
             const string message ="Данна функція в розробці";
             const string caption = "Comming soon";
+            // Show Message Box
             var result = MessageBox.Show(message, caption,MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            
         }
     }
 }
