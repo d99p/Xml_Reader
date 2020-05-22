@@ -3110,7 +3110,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>XLM Зчитувач</value>
+    <value>XLM Reader</value>
   </data>
   <data name="&gt;&gt;XmlDataSet.Name" xml:space="preserve">
     <value>XmlDataSet</value>
