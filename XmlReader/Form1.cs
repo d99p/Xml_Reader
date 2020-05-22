@@ -94,11 +94,10 @@ namespace XmlReader
                 Microsoft.Office.Interop.Excel._Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
                 // creating new Excelsheet in workbook  
                 Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
-                // Name Excel table
-                worksheet.Name = "Excel Table form Xml Reader";
                 // store its reference to worksheet  
                 worksheet = workbook.ActiveSheet;
-
+                // Name Excel table
+                worksheet.Name = "Excel Table form Xml Reader";
                 // storing header part in Excel  
                 for (int i = 1; i < dataGridView1.Columns.Count + 1; i++)
                 {
@@ -136,7 +135,7 @@ namespace XmlReader
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Git Hub link
+            // Git Hub Link
             System.Diagnostics.Process.Start("https://github.com/d99p/Xml_Reader");
         }
 
