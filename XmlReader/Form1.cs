@@ -14,11 +14,11 @@ using System.IO;
 
 namespace XmlReader
 {
-    public partial class Form1 : Form
+    public partial class Xml_Reader : Form
     {
         private OpenFileDialog openFileDialog1;
 
-        public Form1()
+        public Xml_Reader()
         {
             InitializeComponent();
             // File Dialog Window Box
@@ -132,6 +132,16 @@ namespace XmlReader
             // Show Message Box
             var result = MessageBox.Show(message, caption,MessageBoxButtons.OK, MessageBoxIcon.Information);
             
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/d99p/Xml_Reader");
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
