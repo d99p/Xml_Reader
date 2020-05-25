@@ -121,8 +121,6 @@ namespace XmlReader
                 ExcelFile.Quit();
                 Marshal.ReleaseComObject(ExcelFile);
 
-
-
             }
             catch (ApplicationException ex)
             {
