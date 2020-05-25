@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Security;
 using System.Diagnostics;
 using System.IO;
-
+using System.Runtime.InteropServices;
 
 namespace XmlReader
 {
@@ -24,7 +24,7 @@ namespace XmlReader
             // File Dialog Window Box
             openFileDialog1 = new OpenFileDialog()
             {
-                FileName = "Виберіть Xml файл",
+                FileName = " Виберіть Xml файл. ",
                 Filter = "Xml files (*.xml)|*.xml",
                 Title = "Open xlm file"
             };
@@ -89,11 +89,11 @@ namespace XmlReader
             try
             {
                 // creating Excel Application  
-                Microsoft.Office.Interop.Excel._Application ExcelFile = new Microsoft.Office.Interop.Excel.Application();
+                Microsoft.Office.Interop.Excel.Application ExcelFile = new Microsoft.Office.Interop.Excel.Application();
                 // creating new WorkBook within Excel application  
-                Microsoft.Office.Interop.Excel._Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
+                Microsoft.Office.Interop.Excel.Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
                 // creating new Excelsheet in workbook  
-                Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
+                Microsoft.Office.Interop.Excel.Worksheet worksheet = null;
                 // store its reference to worksheet  
                 worksheet = workbook.ActiveSheet;
                 // Name Excel table
@@ -114,6 +114,15 @@ namespace XmlReader
                 // see the excel sheet behind the program 
                 ExcelFile.Columns.AutoFit();
                 ExcelFile.Visible = true;
+                // Close program in process
+                workbook.Close();
+                Marshal.ReleaseComObject(workbook);
+                workbook = null;
+                ExcelFile.Quit();
+                Marshal.ReleaseComObject(ExcelFile);
+
+
+
             }
             catch (ApplicationException ex)
             {
@@ -121,7 +130,9 @@ namespace XmlReader
                 MessageBox.Show($"Error!.\n\nError message: {ex.Message}\n\n" +
                 $"Details:\n\n{ex.StackTrace}");
             }
+            
         }
+        
         //Future development
         private void button2_Click(object sender, EventArgs e)
         {
@@ -144,5 +155,6 @@ namespace XmlReader
             // Linkedin link
             System.Diagnostics.Process.Start("https://www.linkedin.com/in/denys-perepelytsia/");
         }
+
     }
 }

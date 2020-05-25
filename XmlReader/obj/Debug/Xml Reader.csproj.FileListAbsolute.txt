@@ -1,0 +1,16 @@
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.exe.config
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.exe
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.pdb
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\aa\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\uk-UA\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\Xml Reader.csprojAssemblyReference.cache
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.Xml_Reader.resources
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.Properties.Resources.resources
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.Xml_Reader.aa.resources
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.Xml_Reader.uk-UA.resources
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\Xml Reader.csproj.GenerateResource.cache
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\Xml Reader.csproj.CoreCompileInputs.cache
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\aa\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\uk-UA\XmlReader.resources.dll
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.exe
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.pdb
