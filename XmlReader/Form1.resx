@@ -138,7 +138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 240</value>
@@ -166,7 +166,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="ShowSchemaButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>482, 404</value>
@@ -190,7 +190,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ShowSchemaButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <metadata name="XmlDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -217,7 +217,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DownloadXmlButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="Excel.Location" type="System.Drawing.Point, System.Drawing">
     <value>362, 404</value>
@@ -241,7 +241,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Excel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="Word.Location" type="System.Drawing.Point, System.Drawing">
     <value>233, 404</value>
@@ -265,7 +265,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Word.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="linkGitHub.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -292,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linkGitHub.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -319,6 +319,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="About.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 425</value>
+  </data>
+  <data name="About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="About.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="About.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;About.Name" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;About.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;About.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

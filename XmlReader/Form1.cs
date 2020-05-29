@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 
 namespace XmlReader
 {
-    public partial class Xml_Reader : Form
+    public partial class Xml_Reader : Form , IDisposable
     {
         private OpenFileDialog openFileDialog1;
 
@@ -24,9 +24,9 @@ namespace XmlReader
             // File Dialog Window Box
             openFileDialog1 = new OpenFileDialog()
             {
-                FileName = " Виберіть Xml файл. ",
+                FileName = "Select the Xml file.",
                 Filter = "Xml files (*.xml)|*.xml",
-                Title = "Open xlm file"
+                Title = "Download the XML file"
             };
         }
 
@@ -89,11 +89,11 @@ namespace XmlReader
             try
             {
                 // creating Excel Application  
-                Microsoft.Office.Interop.Excel.Application ExcelFile = new Microsoft.Office.Interop.Excel.Application();
+                Microsoft.Office.Interop.Excel._Application ExcelFile = new Microsoft.Office.Interop.Excel.Application();
                 // creating new WorkBook within Excel application  
-                Microsoft.Office.Interop.Excel.Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
+                Microsoft.Office.Interop.Excel._Workbook workbook = ExcelFile.Workbooks.Add(Type.Missing);
                 // creating new Excelsheet in workbook  
-                Microsoft.Office.Interop.Excel.Worksheet worksheet = null;
+                Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
                 // store its reference to worksheet  
                 worksheet = workbook.ActiveSheet;
                 // Name Excel table
@@ -120,6 +120,7 @@ namespace XmlReader
                 workbook = null;
                 ExcelFile.Quit();
                 Marshal.ReleaseComObject(ExcelFile);
+                ExcelFile = null;
 
             }
             catch (ApplicationException ex)
@@ -128,9 +129,8 @@ namespace XmlReader
                 MessageBox.Show($"Error!.\n\nError message: {ex.Message}\n\n" +
                 $"Details:\n\n{ex.StackTrace}");
             }
-            
+
         }
-        
         //Future development
         private void button2_Click(object sender, EventArgs e)
         {
