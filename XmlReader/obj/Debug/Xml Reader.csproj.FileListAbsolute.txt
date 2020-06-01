@@ -14,3 +14,7 @@ E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\aa\XmlReader.resources.dll
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\uk-UA\XmlReader.resources.dll
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.exe
 E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.pdb
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.exe.manifest
+E:\ProjectSolution\XmlReader1\XmlReader\bin\Debug\XmlReader.application
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.exe.manifest
+E:\ProjectSolution\XmlReader1\XmlReader\obj\Debug\XmlReader.application
